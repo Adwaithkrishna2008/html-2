@@ -1,0 +1,40 @@
+h1{color: red}
+  /* *{
+       border:dashed;
+   } */
+
+p,h2{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+
+   .header{
+       background-color:cadetblue;
+       font-style:initial;
+       display: flex;
+       justify-content:space-between;
+ }
+
+   .menu{
+       justify-content:space-evenly;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .site-description{
+       display: flex;
+       flex-direction: column;
+       justify-content:first baseline;
+   }
+
+   .grid{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+
+   .footer{
+       display:flex;
+       justify-content: flex-end;
+   }
